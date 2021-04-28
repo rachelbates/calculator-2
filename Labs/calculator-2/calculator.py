@@ -20,7 +20,16 @@ while True :
     #Addition
     elif tokens[0] == '+' : 
         print(add(tokens[1], tokens[2]))
-    
+    #Subtraction
+    elif tokens[0] == '-':
+        print(subtract(tokens[1], tokens[2]))
+    #Multiply
+    elif tokens[0] == '*':
+        print(multiply(tokens[1], tokens[2]))
+#Divide
+    elif tokens[0] == '/':
+        print(divide(tokens[1], tokens[2]))
+
 
     
 
